@@ -7,7 +7,7 @@ package Dispatch::Profile::CodeStore;
 #-------------------------------------------------------------------------------
 use Moose;
 use Moose::Util::TypeConstraints;
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 #-------------------------------------------------------------------------------
 #   Object constructor parameters
@@ -241,7 +241,7 @@ sub BUILD {
 __PACKAGE__->meta->make_immutable;
 1;
 
-# ABSTRACT: Dispatch::Profile Moose constructor coderef store
+# ABSTRACT: Dispatch::Profile coderef store
 
 __END__
 
@@ -251,11 +251,11 @@ __END__
 
 =head1 NAME
 
-Dispatch::Profile::CodeStore - Dispatch::Profile Moose constructor coderef store
+Dispatch::Profile::CodeStore - Dispatch::Profile coderef store
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 DESCRIPTION
 

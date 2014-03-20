@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Dispatch::Profile Moose constructor coderef store",
+  "ABSTRACT" => "Dispatch::Profile coderef store",
   "AUTHOR" => "James Spurin <james\@spurin.com>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -26,7 +26,7 @@ my %WriteMakefileArgs = (
     "strict" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

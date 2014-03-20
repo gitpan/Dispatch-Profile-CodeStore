@@ -1,5 +1,5 @@
 ---
-abstract: 'Dispatch::Profile Moose constructor coderef store'
+abstract: 'Dispatch::Profile coderef store'
 author:
   - 'James Spurin <james@spurin.com>'
 build_requires: {}
@@ -16,4 +16,4 @@ requires:
   Moose: '0'
   Moose::Util::TypeConstraints: '0'
   strict: '0'
-version: '0.001'
+version: '0.002'

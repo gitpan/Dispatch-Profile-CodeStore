@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution Dispatch-Profile-CodeStore,
-version 0.001:
+version 0.002:
 
-  Dispatch::Profile Moose constructor coderef store
+  Dispatch::Profile coderef store
 
 This software is copyright (c) 2014 by James Spurin.
 
